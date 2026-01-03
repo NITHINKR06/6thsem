@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#333">Supervised vs Unsupervised Learning</text>
+  
+  <!-- Supervised Side -->
+  <g transform="translate(50, 60)">
+    <rect x="0" y="0" width="320" height="300" fill="#e3f2fd" rx="10" ry="10" stroke="#2196f3" stroke-width="2"/>
+    <text x="160" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1565c0">Supervised Learning</text>
+    
+    <!-- Flow -->
+    <rect x="30" y="60" width="100" height="40" fill="#fff" stroke="#1565c0" rx="5"/>
+    <text x="80" y="85" font-family="Arial" font-size="12" text-anchor="middle">Labeled Data</text>
+    
+    <path d="M 80 100 L 80 130" stroke="#1565c0" stroke-width="2" marker-end="url(#arrow)"/>
+    
+    <rect x="30" y="130" width="100" height="40" fill="#bbdefb" stroke="#1565c0" rx="5"/>
+    <text x="80" y="155" font-family="Arial" font-size="12" text-anchor="middle">Training</text>
+    
+    <path d="M 80 170 L 80 200" stroke="#1565c0" stroke-width="2" marker-end="url(#arrow)"/>
+    
+    <rect x="30" y="200" width="100" height="40" fill="#fff" stroke="#1565c0" rx="5"/>
+    <text x="80" y="225" font-family="Arial" font-size="12" text-anchor="middle">Model</text>
+    
+    <!-- Prediction -->
+    <path d="M 130 220 L 180 220" stroke="#1565c0" stroke-width="2" marker-end="url(#arrow)"/>
+    
+    <rect x="180" y="200" width="100" height="40" fill="#ffecb3" stroke="#ffa000" rx="5"/>
+    <text x="230" y="225" font-family="Arial" font-size="12" text-anchor="middle">Prediction</text>
+    
+    <text x="160" y="280" font-family="Arial" font-size="14" text-anchor="middle" fill="#555">Teacher (Labels) Guides</text>
+  </g>
+  
+  <!-- Unsupervised Side -->
+  <g transform="translate(430, 60)">
+    <rect x="0" y="0" width="320" height="300" fill="#fce4ec" rx="10" ry="10" stroke="#e91e63" stroke-width="2"/>
+    <text x="160" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#c2185b">Unsupervised Learning</text>
+    
+    <!-- Flow -->
+    <rect x="110" y="60" width="100" height="40" fill="#fff" stroke="#c2185b" rx="5"/>
+    <text x="160" y="85" font-family="Arial" font-size="12" text-anchor="middle">Unlabeled Data</text>
+    
+    <path d="M 160 100 L 160 130" stroke="#c2185b" stroke-width="2" marker-end="url(#arrowRed)"/>
+    
+    <rect x="110" y="130" width="100" height="40" fill="#f8bbd0" stroke="#c2185b" rx="5"/>
+    <text x="160" y="155" font-family="Arial" font-size="12" text-anchor="middle">Processing</text>
+    
+    <path d="M 160 170 L 160 200" stroke="#c2185b" stroke-width="2" marker-end="url(#arrowRed)"/>
+    
+    <rect x="110" y="200" width="100" height="40" fill="#fff" stroke="#c2185b" rx="5"/>
+    <text x="160" y="225" font-family="Arial" font-size="12" text-anchor="middle">Patterns/Clusters</text>
+    
+    <text x="160" y="280" font-family="Arial" font-size="14" text-anchor="middle" fill="#555">No Teacher (Self-Discovery)</text>
+  </g>
+  
+  <!-- Defs -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1565c0" />
+    </marker>
+    <marker id="arrowRed" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#c2185b" />
+    </marker>
+  </defs>
+</svg>

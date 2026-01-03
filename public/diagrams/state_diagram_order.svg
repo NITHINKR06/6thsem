@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200">
+  <rect width="600" height="200" fill="#fff" />
+  <text x="300" y="30" font-family="Arial" font-weight="bold" text-anchor="middle">Order State Diagram</text>
+  
+  <circle cx="50" cy="100" r="15" fill="#333"/>
+  <line x1="65" y1="100" x2="110" y2="100" stroke="#333" marker-end="url(#arrow)"/>
+  
+  <rect x="110" y="80" width="80" height="40" rx="10" fill="#fff9c4" stroke="#fbc02d"/>
+  <text x="150" y="105" text-anchor="middle">Placed</text>
+  <line x1="190" y1="100" x2="240" y2="100" stroke="#333" marker-end="url(#arrow)"/>
+  
+  <rect x="240" y="80" width="80" height="40" rx="10" fill="#fff9c4" stroke="#fbc02d"/>
+  <text x="280" y="105" text-anchor="middle">Paid</text>
+  <line x1="320" y1="100" x2="370" y2="100" stroke="#333" marker-end="url(#arrow)"/>
+  
+  <rect x="370" y="80" width="80" height="40" rx="10" fill="#fff9c4" stroke="#fbc02d"/>
+  <text x="410" y="105" text-anchor="middle">Shipped</text>
+  <line x1="450" y1="100" x2="500" y2="100" stroke="#333" marker-end="url(#arrow)"/>
+  
+  <rect x="500" y="80" width="80" height="40" rx="10" fill="#c8e6c9" stroke="#388e3c"/>
+  <text x="540" y="105" text-anchor="middle">Delivered</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#fff" />
+  <text x="200" y="30" font-family="Arial" font-weight="bold" text-anchor="middle">Layered Architecture</text>
+  
+  <rect x="100" y="60" width="200" height="60" fill="#bbdefb" stroke="#1976d2"/>
+  <text x="200" y="95" text-anchor="middle" font-weight="bold">Presentation Layer</text>
+
+  <path d="M 200 120 L 200 160" stroke="#333" stroke-width="2" marker-end="url(#arrowD)"/>
+  
+  <rect x="100" y="160" width="200" height="60" fill="#c8e6c9" stroke="#388e3c"/>
+  <text x="200" y="195" text-anchor="middle" font-weight="bold">Business Logic</text>
+  
+  <path d="M 200 220 L 200 260" stroke="#333" stroke-width="2" marker-end="url(#arrowD)"/>
+  
+  <rect x="100" y="260" width="200" height="60" fill="#ffccbc" stroke="#d84315"/>
+  <text x="200" y="295" text-anchor="middle" font-weight="bold">Data Access Layer</text>
+  
+  <defs><marker id="arrowD" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#333" /></marker></defs>
+</svg>

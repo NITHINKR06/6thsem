@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <rect width="600" height="300" fill="#e0f2f1" />
+  <text x="300" y="30" font-family="Arial" font-weight="bold" text-anchor="middle">UTM vs NGFW</text>
+  
+  <!-- UTM -->
+  <g transform="translate(50, 60)">
+    <rect x="0" y="0" width="220" height="200" fill="#fff" stroke="#00695c"/>
+    <text x="110" y="30" text-anchor="middle" font-weight="bold" fill="#00695c">UTM</text>
+    <text x="110" y="50" text-anchor="middle" font-size="10">Unified Threat Management</text>
+    
+    <rect x="30" y="70" width="160" height="100" fill="#b2dfdb"/>
+    <text x="110" y="100" text-anchor="middle">Firewall + VPN</text>
+    <text x="110" y="120" text-anchor="middle">IPS + AV + Web Filter</text>
+    <text x="110" y="140" text-anchor="middle">Email Security</text>
+    
+    <text x="110" y="190" text-anchor="middle" font-size="12" font-style="italic">"All-in-One Box"</text>
+  </g>
+
+  <!-- NGFW -->
+  <g transform="translate(330, 60)">
+    <rect x="0" y="0" width="220" height="200" fill="#fff" stroke="#0277bd"/>
+    <text x="110" y="30" text-anchor="middle" font-weight="bold" fill="#0277bd">NGFW</text>
+    <text x="110" y="50" text-anchor="middle" font-size="10">Next-Gen Firewall</text>
+    
+    <rect x="30" y="70" width="160" height="100" fill="#b3e5fc"/>
+    <text x="110" y="100" text-anchor="middle">Deep Packet Inspection</text>
+    <text x="110" y="120" text-anchor="middle">Application ID</text>
+    <text x="110" y="140" text-anchor="middle">User ID</text>
+    
+    <text x="110" y="190" text-anchor="middle" font-size="12" font-style="italic">"Granular Control"</text>
+  </g>
+</svg>

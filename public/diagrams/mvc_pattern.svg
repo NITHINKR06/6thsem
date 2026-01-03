@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <rect width="500" height="400" fill="#fff" />
+  <text x="250" y="30" font-family="Arial" font-weight="bold" text-anchor="middle">MVC Pattern</text>
+  
+  <rect x="200" y="50" width="100" height="60" fill="#e1bee7" stroke="#7b1fa2"/>
+  <text x="250" y="85" text-anchor="middle" font-weight="bold">Model</text>
+  
+  <rect x="50" y="250" width="100" height="60" fill="#b2dfdb" stroke="#00796b"/>
+  <text x="100" y="285" text-anchor="middle" font-weight="bold">View</text>
+  
+  <rect x="350" y="250" width="100" height="60" fill="#ffecb3" stroke="#ffa000"/>
+  <text x="400" y="285" text-anchor="middle" font-weight="bold">Controller</text>
+  
+  <!-- Arrows -->
+  <path d="M 150 280 L 350 280" stroke="#333" stroke-width="2"/> <!-- V <-> C (indirect) used by User -->
+  <line x1="250" y1="110" x2="100" y2="250" stroke="#333" stroke-width="2" marker-end="url(#arrowM)"/> <!-- M updates V -->
+  <line x1="400" y1="250" x2="300" y2="110" stroke="#333" stroke-width="2" marker-end="url(#arrowM)"/> <!-- C updates M -->
+  
+  <text x="130" y="180" font-size="10" transform="rotate(-45 130,180)">Updates</text>
+  <text x="370" y="180" font-size="10" transform="rotate(45 370,180)">Manipulates</text>
+  
+  <defs><marker id="arrowM" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#333" /></marker></defs>
+</svg>

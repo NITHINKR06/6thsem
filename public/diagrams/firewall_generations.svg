@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
+  <rect width="800" height="300" fill="#ffebee" />
+  <text x="400" y="40" font-family="Arial" font-weight="bold" text-anchor="middle">Firewall Generations</text>
+  
+  <line x1="50" y1="150" x2="750" y2="150" stroke="#d32f2f" stroke-width="4" marker-end="url(#arrowR)"/>
+  
+  <g transform="translate(100, 100)">
+    <circle cx="0" cy="50" r="10" fill="#d32f2f"/>
+    <text x="0" y="80" text-anchor="middle" font-weight="bold">Gen 1</text>
+    <text x="0" y="100" text-anchor="middle" font-size="12">Packet Filters</text>
+  </g>
+  <g transform="translate(300, 100)">
+    <circle cx="0" cy="50" r="10" fill="#d32f2f"/>
+    <text x="0" y="80" text-anchor="middle" font-weight="bold">Gen 2</text>
+    <text x="0" y="100" text-anchor="middle" font-size="12">Stateful</text>
+  </g>
+  <g transform="translate(500, 100)">
+    <circle cx="0" cy="50" r="10" fill="#d32f2f"/>
+    <text x="0" y="80" text-anchor="middle" font-weight="bold">Gen 3</text>
+    <text x="0" y="100" text-anchor="middle" font-size="12">Application/Proxy</text>
+  </g>
+  <g transform="translate(700, 100)">
+    <circle cx="0" cy="50" r="10" fill="#d32f2f"/>
+    <text x="0" y="80" text-anchor="middle" font-weight="bold">Gen 4</text>
+    <text x="0" y="100" text-anchor="middle" font-size="12">Next-Gen (NGFW)</text>
+  </g>
+  <defs><marker id="arrowR" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#d32f2f" /></marker></defs>
+</svg>

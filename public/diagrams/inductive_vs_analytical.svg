@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#e3f2fd" />
+  <text x="300" y="30" font-family="Arial" font-weight="bold" text-anchor="middle">Inductive vs Analytical Learning</text>
+  
+  <!-- Inductive -->
+  <g transform="translate(50, 60)">
+    <rect x="0" y="0" width="220" height="300" fill="#fff" stroke="#1565c0" rx="10"/>
+    <text x="110" y="30" text-anchor="middle" font-weight="bold" fill="#1565c0">Inductive Learning</text>
+    <text x="110" y="50" text-anchor="middle" font-size="12">(e.g., Neural Nets, Trees)</text>
+    
+    <text x="110" y="100" text-anchor="middle">Training Examples</text>
+    <line x1="110" y1="110" x2="110" y2="150" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="110" y="170" text-anchor="middle" font-weight="bold">General Hypothesis</text>
+    <text x="110" y="250" text-anchor="middle" font-size="12" fill="#555">"Knowledge from Data"</text>
+  </g>
+
+  <!-- Analytical -->
+  <g transform="translate(330, 60)">
+    <rect x="0" y="0" width="220" height="300" fill="#fff" stroke="#c62828" rx="10"/>
+    <text x="110" y="30" text-anchor="middle" font-weight="bold" fill="#c62828">Analytical Learning</text>
+    <text x="110" y="50" text-anchor="middle" font-size="12">(e.g., Explanation Based)</text>
+    
+    <text x="60" y="100" text-anchor="middle" font-size="12">Examples</text>
+    <text x="160" y="100" text-anchor="middle" font-size="12">Prior Knowledge</text>
+    <line x1="60" y1="110" x2="100" y2="150" stroke="#333" stroke-width="2"/>
+    <line x1="160" y1="110" x2="120" y2="150" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+    
+    <text x="110" y="170" text-anchor="middle" font-weight="bold">Generalized Rules</text>
+    <text x="110" y="250" text-anchor="middle" font-size="12" fill="#555">"Knowledge Guided"</text>
+  </g>
+</svg>

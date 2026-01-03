@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+  <rect width="300" height="200" fill="#fff" />
+  <rect x="50" y="50" width="200" height="120" rx="15" ry="15" fill="#f3e5f5" stroke="#8e24aa" stroke-width="2"/>
+  
+  <text x="150" y="80" font-family="Arial" font-weight="bold" text-anchor="middle">State Name</text>
+  <line x1="50" y1="90" x2="250" y2="90" stroke="#8e24aa"/>
+  
+  <text x="60" y="115" font-family="Arial" font-size="12">entry / action()</text>
+  <text x="60" y="135" font-family="Arial" font-size="12">do / activity()</text>
+  <text x="60" y="155" font-family="Arial" font-size="12">exit / cleanup()</text>
+</svg>

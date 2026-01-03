@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500">
+  <rect width="600" height="500" fill="#e8f5e9" />
+  <text x="300" y="30" font-family="Arial" font-weight="bold" text-anchor="middle">ID3 Algorithm</text>
+  
+  <rect x="250" y="50" width="100" height="40" rx="20" fill="#66bb6a" stroke="#2e7d32"/>
+  <text x="300" y="75" text-anchor="middle" font-weight="bold" fill="white">Start</text>
+  <line x1="300" y1="90" x2="300" y2="130" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <polygon points="300,130 350,160 300,190 250,160" fill="#fff" stroke="#333"/>
+  <text x="300" y="165" text-anchor="middle" font-size="10">Homogeneous?</text>
+  
+  <text x="360" y="160" font-size="10">Yes</text>
+  <line x1="350" y1="160" x2="400" y2="160" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="400" y="140" width="80" height="40" fill="#81c784" stroke="#2e7d32"/>
+  <text x="440" y="165" text-anchor="middle" font-size="10">Create Leaf</text>
+
+  <text x="300" y="205" font-size="10">No</text>
+  <line x1="300" y1="190" x2="300" y2="230" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="220" y="230" width="160" height="40" fill="#fff" stroke="#333"/>
+  <text x="300" y="255" text-anchor="middle" font-size="10">Calc Entropy & Gain</text>
+  <line x1="300" y1="270" x2="300" y2="310" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="220" y="310" width="160" height="40" fill="#fff" stroke="#333"/>
+  <text x="300" y="335" text-anchor="middle" font-size="10">Select Best Attribute</text>
+  <line x1="300" y1="350" x2="300" y2="390" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <text x="300" y="420" text-anchor="middle" font-size="12">Recurse for each Branch</text>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#333" /></marker></defs>
+</svg>

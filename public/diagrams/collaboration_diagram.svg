@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#fff" />
+  <text x="200" y="30" font-family="Arial" font-weight="bold" text-anchor="middle">Collaboration Diagram</text>
+  
+  <rect x="50" y="120" width="80" height="40" fill="#eee" stroke="#333"/>
+  <text x="90" y="145" text-anchor="middle">:Sender</text>
+  
+  <line x1="130" y1="140" x2="270" y2="140" stroke="#333" stroke-width="2"/>
+  
+  <rect x="270" y="120" width="80" height="40" fill="#eee" stroke="#333"/>
+  <text x="310" y="145" text-anchor="middle">:Receiver</text>
+  
+  <text x="200" y="130" text-anchor="middle">1: call() →</text>
+  <text x="200" y="160" text-anchor="middle">← 2: return</text>
+</svg>

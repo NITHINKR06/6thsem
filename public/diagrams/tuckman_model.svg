@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
+  <rect width="800" height="300" fill="#f3e5f5" />
+  <text x="400" y="40" font-family="Arial" font-weight="bold" text-anchor="middle">Tuckman's Team Stages</text>
+  
+  <polyline points="50,250 150,200 300,230 500,100 700,50" fill="none" stroke="#673ab7" stroke-width="4"/>
+  
+  <circle cx="50" cy="250" r="10" fill="#673ab7"/> <text x="50" y="280" text-anchor="middle">Forming</text>
+  <circle cx="150" cy="200" r="10" fill="#673ab7"/> <text x="150" y="180" text-anchor="middle">Storming</text>
+  <circle cx="300" cy="230" r="10" fill="#673ab7"/> <text x="300" y="260" text-anchor="middle">Norming</text>
+  <circle cx="500" cy="100" r="10" fill="#673ab7"/> <text x="500" y="130" text-anchor="middle">Performing</text>
+  <circle cx="700" cy="50" r="10" fill="#673ab7"/> <text x="700" y="80" text-anchor="middle">Adjourning</text>
+  
+  <text x="10" y="150" transform="rotate(-90 20,150)" font-weight="bold" fill="#673ab7">Performance</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <rect width="600" height="300" fill="#fff3e0" />
+  <text x="300" y="30" font-family="Arial" font-weight="bold" text-anchor="middle">Entropy & Information Gain</text>
+  
+  <text x="150" y="60" text-anchor="middle" font-weight="bold">High Entropy (Impure)</text>
+  <circle cx="150" cy="120" r="50" fill="#fff" stroke="#333"/>
+  <text x="140" y="110" font-size="20">●</text> <text x="160" y="110" font-size="20" fill="red">✖</text>
+  <text x="130" y="130" font-size="20" fill="red">✖</text> <text x="150" y="130" font-size="20">●</text>
+  <text x="170" y="130" font-size="20">●</text> <text x="150" y="150" font-size="20" fill="red">✖</text>
+  <text x="150" y="190" text-anchor="middle">H(S) ≈ 1.0</text>
+
+  <line x1="220" y1="120" x2="380" y2="120" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="300" y="110" text-anchor="middle">Split by Attribute</text>
+
+  <text x="450" y="60" text-anchor="middle" font-weight="bold">Low Entropy (Pure)</text>
+  <circle cx="450" cy="90" r="30" fill="#fff" stroke="#333"/>
+  <text x="450" y="95" text-anchor="middle">● ● ●</text>
+  <text x="500" y="90" fill="green">H=0</text>
+
+  <circle cx="450" cy="170" r="30" fill="#fff" stroke="#333"/>
+  <text x="450" y="175" text-anchor="middle" fill="red">✖ ✖ ✖</text>
+  <text x="500" y="170" fill="green">H=0</text>
+  
+  <text x="300" y="250" text-anchor="middle" font-weight="bold">Gain = H(Parent) - WeightedAvg(H(Children))</text>
+</svg>

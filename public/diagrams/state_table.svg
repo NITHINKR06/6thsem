@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <rect width="600" height="300" fill="#e3f2fd" />
+  <text x="300" y="40" font-family="Arial" font-weight="bold" text-anchor="middle">Firewall State Table</text>
+  
+  <g transform="translate(50, 70)">
+    <rect x="0" y="0" width="500" height="30" fill="#1976d2"/>
+    <text x="10" y="20" fill="white" font-weight="bold">Source IP</text>
+    <text x="110" y="20" fill="white" font-weight="bold">Des IP</text>
+    <text x="210" y="20" fill="white" font-weight="bold">Proto</text>
+    <text x="310" y="20" fill="white" font-weight="bold">State</text>
+    <text x="410" y="20" fill="white" font-weight="bold">Timeout</text>
+    
+    <rect x="0" y="30" width="500" height="30" fill="white" stroke="#bbdefb"/>
+    <text x="10" y="50">192.168.1.5</text> <text x="110" y="50">8.8.8.8</text> <text x="210" y="50">TCP</text> <text x="310" y="50">ESTAB</text> <text x="410" y="50">200s</text>
+    
+    <rect x="0" y="60" width="500" height="30" fill="#f5f5f5" stroke="#bbdefb"/>
+    <text x="10" y="80">10.0.0.3</text> <text x="110" y="80">1.1.1.1</text> <text x="210" y="80">UDP</text> <text x="310" y="80">WAIT</text> <text x="410" y="80">30s</text>
+  </g>
+</svg>

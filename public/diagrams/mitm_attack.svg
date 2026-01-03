@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <rect width="600" height="300" fill="#212121" />
+  <text x="300" y="40" fill="white" font-family="Arial" font-weight="bold" text-anchor="middle">Man-in-the-Middle Attack</text>
+  
+  <rect x="50" y="120" width="80" height="60" fill="#42a5f5"/> <text x="90" y="155" fill="white" text-anchor="middle">Client</text>
+  <rect x="470" y="120" width="80" height="60" fill="#66bb6a"/> <text x="510" y="155" fill="white" text-anchor="middle">Server</text>
+  
+  <rect x="260" y="120" width="80" height="60" fill="#ef5350"/> <text x="300" y="155" fill="white" text-anchor="middle">Attacker</text>
+  
+  <path d="M 130 150 L 260 150" stroke="white" stroke-width="2" marker-end="url(#arrowW)"/>
+  <path d="M 340 150 L 470 150" stroke="white" stroke-width="2" marker-end="url(#arrowW)"/>
+  
+  <text x="200" y="140" fill="#ccc" font-size="10">Traffic Intercepted</text>
+  <text x="400" y="140" fill="#ccc" font-size="10">Traffic Relayed</text>
+  
+  <defs><marker id="arrowW" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="white" /></marker></defs>
+</svg>

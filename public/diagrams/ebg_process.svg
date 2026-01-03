@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <rect width="600" height="300" fill="#f3e5f5" />
+  <text x="300" y="30" font-family="Arial" font-weight="bold" text-anchor="middle">Explanation-Based Generalization (EBG)</text>
+  
+  <rect x="50" y="60" width="100" height="40" fill="#e1bee7" stroke="#4a148c"/> <text x="100" y="85" text-anchor="middle" font-size="12">Domain Theory</text>
+  <rect x="50" y="120" width="100" height="40" fill="#e1bee7" stroke="#4a148c"/> <text x="100" y="145" text-anchor="middle" font-size="12">Target Concept</text>
+  <rect x="50" y="180" width="100" height="40" fill="#e1bee7" stroke="#4a148c"/> <text x="100" y="205" text-anchor="middle" font-size="12">Training Ex</text>
+  
+  <path d="M 160 80 L 220 140" stroke="#333" stroke-width="2"/>
+  <path d="M 160 140 L 220 140" stroke="#333" stroke-width="2"/>
+  <path d="M 160 200 L 220 140" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="230" y="100" width="140" height="80" fill="#fff" stroke="#333"/>
+  <text x="300" y="130" text-anchor="middle" font-weight="bold">Explanation</text>
+  <text x="300" y="150" text-anchor="middle" font-size="10">(Proof Tree)</text>
+  
+  <line x1="380" y1="140" x2="440" y2="140" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <rect x="450" y="100" width="120" height="80" fill="#ce93d8" stroke="#4a148c"/>
+  <text x="510" y="135" text-anchor="middle" font-weight="bold">General Rule</text>
+  <text x="510" y="155" text-anchor="middle" font-size="10">Operationalized</text>
+</svg>

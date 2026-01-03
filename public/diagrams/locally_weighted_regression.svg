@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#fff3e0" />
+  <text x="300" y="30" font-family="Arial" font-weight="bold" text-anchor="middle">Locally Weighted Regression</text>
+  
+  <!-- Axes -->
+  <line x1="50" y1="350" x2="550" y2="350" stroke="black" stroke-width="2"/>
+  <line x1="50" y1="350" x2="50" y2="50" stroke="black" stroke-width="2"/>
+
+  <!-- Points -->
+  <circle cx="100" cy="300" r="3" fill="#333"/>
+  <circle cx="150" cy="280" r="3" fill="#333"/>
+  <circle cx="200" cy="200" r="3" fill="#333"/>
+  <circle cx="250" cy="150" r="3" fill="#333"/> <!-- Target Area -->
+  <circle cx="300" cy="130" r="3" fill="#333"/>
+  <circle cx="350" cy="180" r="3" fill="#333"/>
+  
+  <!-- Query Point -->
+  <line x1="250" y1="350" x2="250" y2="50" stroke="blue" stroke-dasharray="4"/>
+  <text x="250" y="370" fill="blue" text-anchor="middle">Query x</text>
+  
+  <!-- Bell Curve for Weights -->
+  <path d="M 100 340 Q 250 150 400 340" fill="none" stroke="red" stroke-width="2" opacity="0.5"/>
+  <text x="420" y="330" fill="red">Weight w(i)</text>
+  
+  <!-- Local Fit Line -->
+  <line x1="200" y1="180" x2="300" y2="120" stroke="green" stroke-width="4"/>
+  <text x="320" y="100" fill="green">Local Linear Fit</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#fff" />
+  <text x="200" y="30" font-family="Arial" font-weight="bold" text-anchor="middle">Biological Neuron</text>
+  <text x="600" y="30" font-family="Arial" font-weight="bold" text-anchor="middle">Artificial Neuron</text>
+  
+  <g transform="translate(50, 60)">
+    <circle cx="150" cy="150" r="40" fill="#ffcc80" stroke="#f57c00" stroke-width="2"/>
+    <text x="150" y="155" text-anchor="middle">Soma</text>
+    <path d="M 110 150 L 50 100" stroke="#f57c00" stroke-width="2"/>
+    <path d="M 110 150 L 50 200" stroke="#f57c00" stroke-width="2"/>
+    <text x="30" y="100">Dendrites</text>
+    <path d="M 190 150 L 290 150" stroke="#f57c00" stroke-width="4"/>
+    <text x="240" y="140">Axon</text>
+  </g>
+
+  <g transform="translate(450, 60)">
+    <circle cx="150" cy="150" r="40" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2"/>
+    <text x="150" y="145" text-anchor="middle" font-size="12">Summation</text>
+    <text x="150" y="165" text-anchor="middle" font-size="12">Activation</text>
+    <path d="M 50 100 L 115 135" stroke="#7b1fa2" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M 50 200 L 115 165" stroke="#7b1fa2" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="40" y="100">x1 (w1)</text>
+    <text x="40" y="200">x2 (w2)</text>
+    <path d="M 190 150 L 250 150" stroke="#7b1fa2" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="270" y="155">Output (y)</text>
+  </g>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#7b1fa2" /></marker></defs>
+</svg>

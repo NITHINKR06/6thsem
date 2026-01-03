@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#fff8e1" />
+  <text x="300" y="30" font-family="Arial" font-weight="bold" text-anchor="middle">KBANN (Knowledge Based ANN)</text>
+  
+  <!-- Rules -->
+  <rect x="50" y="100" width="150" height="200" fill="#fff" stroke="#ff6f00" stroke-dasharray="5,5"/>
+  <text x="125" y="130" text-anchor="middle" fill="#ff6f00">Rules (IF-THEN)</text>
+  <text x="125" y="160" text-anchor="middle" font-size="10">IF A & B THEN C</text>
+  <text x="125" y="180" text-anchor="middle" font-size="10">IF C OR D THEN E</text>
+  
+  <path d="M 200 200 L 250 200" stroke="#ff6f00" stroke-width="4" marker-end="url(#arrowO)"/>
+  
+  <!-- Neural Network -->
+  <g transform="translate(300, 80)">
+    <circle cx="50" cy="50" r="15" fill="#ffe0b2" stroke="#e65100"/>
+    <circle cx="50" cy="150" r="15" fill="#ffe0b2" stroke="#e65100"/>
+    <circle cx="150" cy="100" r="15" fill="#ffcc80" stroke="#e65100"/>
+    <circle cx="250" cy="100" r="15" fill="#ffb74d" stroke="#e65100"/>
+    
+    <line x1="65" y1="50" x2="135" y2="100" stroke="#e65100" stroke-width="2"/>
+    <line x1="65" y1="150" x2="135" y2="100" stroke="#e65100" stroke-width="2"/>
+    <line x1="165" y1="100" x2="235" y2="100" stroke="#e65100" stroke-width="2"/>
+    
+    <text x="150" y="200" text-anchor="middle" fill="#e65100" font-weight="bold">Network Initialized from Rules</text>
+  </g>
+  <defs><marker id="arrowO" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#e65100" /></marker></defs>
+</svg>

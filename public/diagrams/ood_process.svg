@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200">
+  <rect width="600" height="200" fill="#f3e5f5" />
+  <text x="300" y="30" font-family="Arial" font-weight="bold" text-anchor="middle">Object-Oriented Development Cycle</text>
+  
+  <circle cx="100" cy="100" r="40" fill="#e1bee7" stroke="#4a148c"/> <text x="100" y="105" text-anchor="middle" font-size="12">Analysis</text>
+  <line x1="140" y1="100" x2="210" y2="100" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <circle cx="250" cy="100" r="40" fill="#ce93d8" stroke="#4a148c"/> <text x="250" y="105" text-anchor="middle" font-size="12">Design</text>
+  <line x1="290" y1="100" x2="360" y2="100" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <circle cx="400" cy="100" r="40" fill="#ba68c8" stroke="#4a148c"/> <text x="400" y="105" text-anchor="middle" font-size="12">Implement</text>
+  <line x1="440" y1="100" x2="510" y2="100" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <circle cx="550" cy="100" r="40" fill="#ab47bc" stroke="#4a148c"/> <text x="550" y="105" text-anchor="middle" font-size="12">Test</text>
+  
+  <path d="M 550 140 Q 325 220 100 140" fill="none" stroke="#333" stroke-dasharray="5,5" marker-end="url(#arrow)"/>
+  <text x="325" y="190" text-anchor="middle" font-size="12">Iterate</text>
+</svg>

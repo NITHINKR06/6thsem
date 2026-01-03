@@ -1,0 +1,882 @@
+﻿Curriculum for B. Tech. Computer Science and Engineering (Cyber 
+Scecurity) 
+
+1. Database Systems Models, Languages, Design and Application Programming, RamezElmasri and 
+Shamkant B. Navathe, 7th Edition, 2017, Pearson. 
+
+2. Database Management Systems, Raghu Ramakrishnan, JohannesGehrke, Indian Edition, Mc Graw 
+Hill Education. 
+
+REFERENCE BOOKS: 
+1. Database Systems: Models, Languages, Design and Application Programming, RamezElmasri and 
+
+Shamkant B. Navathe, 6th Edition, 2017, Pearson. 
+2. Database System Concepts, SilberschatzKorth and Sudharshan, 6thEdition,            McGraw Hill, 
+
+2013. 
+E Books / MOOCs/ NPTEL 
+
+1. https://www.udemy.com/course/introduction-to-basic-database-concepts/, Introduction to 
+Basic Database Concepts (Udemy).  
+
+2. https://www.udemy.com/course/database-management-systems-mysql/, Database Management 
+Systems – MySQL (Udemy). 
+
+3. https://swayam.gov.in/nd1_noc19_cs46/preview, Database Management System (Swayam). 
+ 
+ 
+ 
+
+ 
+
+MACHINE LEARNING FOR CYBER SECURITY 
+
+Course Code:  CB2003-1 Course Type: IPCC 
+Teaching Hours/Week (L: T: P):  3:0:2 Credits: 04 
+Total Teaching Hours: 40+0+26 CIE + SEE Marks: 50+50 
+
+ 
+
+Teaching Department: Computer Science & Engineering (Cyber Security) 
+Course Objectives: 
+
+1. Understand the need and basics of machine learning and learn the Decision Tree model. 
+2. Learn ANN and Genetic Algorithm along with its applications. 
+3. Explore the various learning algorithms using Supervised Learning. 
+4. Understand the important aspects of Analytical Learning and difference between Analytical and 
+
+Inductive Learning Algorithms. 
+5. Explore the difference between Analytical and Inductive Learning Algorithms and analyse the 
+
+techniques related to reinforcement learning. 
+ 
+
+UNIT-I 
+Introduction: Machine learning: what and why?- Types of machine learning,  Supervised learning and  
+Unsupervised learning. 
+Decision tree: Representation, Appropriate problems for decision tree learning and basic decision tree learning 
+algorithm.  
+Artificial Neural Networks: Introduction, Neural Network Representations, Appropriate problems for neural 
+network learning, Perceptrons and basics of back propagation algorithm. 
+
+  15 Hours 
+ 
+
+UNIT-II 
+Bayesian Learning: Bayes theorem, Bayes theorem and concept Learning, Minimum Description Length, Bayes 
+Optimal Classifier, Naive Bayes Classifier.  
+Instance Based Learning: k-nearest neighbour learning and Locally Weighted Regression.  
+Analytical Learning: Inductive and Analytical learning problems, PROLOG-EBG.                                                     
+                                                                                                                                                                15 Hours 
+ 
+
+UNIT-III 
+Combining Inductive and Analytical Learning: Motivation, Inductive –Analytical Approaches to Learning and 
+Using Prior Knowledge to Initialize the Hypothesis. 
+Reinforcement Learning:                                                 
+Introduction, Learning Task, Q Learning.  
+
+10 Hours 
+ 
+
+ Page | 136  
+
+
+
+                                                                      Curriculum for B. Tech. Computer Science and Engineering (Cyber 
+Scecurity) 
+
+Suggested List of Experiments 
+ PART-A 
+
+1. Implement and demonstrate the FIND-S algorithm for finding the most specific hypothesis based on 
+a given set of training data samples. Read the training data from a .CSV file. 
+
+2. For a given set of training data examples stored in a .CSV file, implement and demonstrate the 
+Candidate-Elimination algorithm to output a description of the set of all hypotheses consistent with 
+the training examples. 
+
+3. Develop a program to demonstrate the working of the decision tree based ID3 algorithm. Use an 
+appropriate data set for building the decision tree and apply this knowledge to classify a new sample. 
+
+4. Build an Artificial Neural Network by implementing the Backpropagation algorithm and test the same 
+using appropriate data sets. 
+
+5. Develop a program to implement the naïve Bayesian classifier for a sample training data set stored 
+as a .CSV file. Compute the accuracy of the classifier, considering few test data sets. 
+
+6. Apply EM algorithm to cluster a set of data stored in a .CSV file. Use the same data set for clustering 
+using k-Means algorithm. Compare the results of these two algorithms and comment on the quality 
+of clustering. You can add Java/Python ML library classes/API in the program. 
+
+7. Implement and demonstrate the working of k-Nearest Neighbour algorithm and apply it to classify 
+the iris data set. 
+
+8. Implement the non-parametric Locally Weighted Regression algorithm in order to fit data points. 
+Select appropriate data set for your experiment and draw graphs. 
+
+9. Build a model to classify email as spam or ham. First, download examples of spam and ham from 
+Apache SpamAssassin’s public datasets and then train a model to classify email. 
+
+ PART-B 
+Mini Project on Machine Learning: 
+The main goal is to prepare students to apply machine learning algorithms to real-world tasks, or to leave 
+students well-qualified to start machine learning or AI research. The mini project is intended to start in these 
+directions. 
+Students shall carry out either one of the following three kinds of projects: 
+1. Application project. Pick an application that is of interest and explore how best to apply learning algorithms 
+to solve it. 
+2. Algorithmic project. Pick a problem or family of problems, and develop a new learning algorithm, or a novel 
+variant of an existing algorithm, to solve it. 
+3. Theoretical project. Prove some interesting/non-trivial properties of a new or an existing learning algorithm. 
+(This is often quite difficult, and so very few, if any, projects will be purely theoretical.) 
+ 
+Course Outcomes: At the end of the course student will be able to 
+
+1. Explain the fundamental concept and importance of machine learning, identify, analyze and 
+categorize applications using decision tree algorithm. 
+
+2. Demonstrate the application of ANN and Genetic algorithm for real world problems. 
+3. Design and implement algorithms for supervised learning system. 
+4. Design and implement algorithms for Analytical and Inductive Learning. 
+5. Develop machine learning algorithm and reinforcement techniques for real world problems. 
+
+ 
+
+  
+Course Outcomes Mapping with Program Outcomes & PSO 
+
+Program Outcomes→ 1 2 3 4 5 6 7 8 9 10 11 12 PSO↓ 
+↓ Course Outcomes 1 2 3 
+
+CS2003-1.1 2 2 3          3 3  
+CS2003-1.2 2 2 3          3 3  
+CS2003-1.3 2 2 3          3 3  
+CS2003-1.4 2 3           1 3  
+CS2003-1.5 2 2 3          2 3  
+
+1: Low 2: Medium 3: High 
+ 
+TEXTBOOKS: 
+
+1. Sumeet Dua, Xian Du, Data Mining and Machine Learning in Cybersecurity, CRC Press, 2011. 
+
+ Page | 137  
+
+
+
+                                                                      Curriculum for B. Tech. Computer Science and Engineering (Cyber 
+Scecurity) 
+
+2. T. M. Mitchell, “Machine Learning”, McGraw Hill, 2017. 
+REFERENCE BOOKS: 
+
+1. EthemAlpaydin, “Introduction to Machine Learning”, Second Edition, The MIT Press, 2004. 
+2. C. M. Bishop, “Pattern Recognition and Machine Learning”, Springer, 2006. 
+3. R. O. Duda, P. E. Hart and D. G. Stork Pattern Classification, Wiley Publications, 2001 
+4. T. Hastie, R. Tibshirani, J. Friedman. The Elements of Statistical Learning, 2e, 2008. 
+5. P. Flach, “Machine Learning: The art and science of algorithms that make sense of data”, Cambridge 
+
+University Press, 2012. 
+6 K. P. Murphy, “Machine Learning: A probabilistic perspective”, MIT Press, 2012. 
+
+7. M. Mohri, A. Rostamizadeh, and A. Talwalkar, “Foundations of Machine Learning”, MIT Press, 2012. 
+8. S. Russel and P. Norvig, “Artificial Intelligence: A Modern Approach”, Third Edition, Prentice Hall, 
+
+2009. 
+E Books / MOOCs/ NPTEL 
+
+1. https://in.mathworks.com/ 
+2. https://www.kdnuggets.com/ 
+
+3. https://blog.cambridgespark. 
+4. https://www.udemy.com/topic/ 
+5. https://www.mooc-list.com/ 
+6. https://peltarion.com 
+
+ 
+ 
+ 
+
+CYBER FORENSICS  
+
+Course Code:  CB3002-1 Course Type: IPCC 
+Teaching Hours/Week (L: T: P):  3:0:2 Credits: 04 
+Total Teaching Hours: 40+0+26 CIE + SEE Marks: 50+50 
+
+ 
+
+Teaching Department: Computer Science & Engineering (Cyber Security) 
+
+Course Objectives: 
+1. To understand the basics of Cyber Forensics. 
+2. To understand and analyze forensic data. 
+3. To analyze network logs. 
+4. To study cyber laws. 
+5. To apply cyber forensic skills to find out malicious users. 
+
+ 
+
+UNIT-I 
+INTRODUCTION: 15 Hours 
+Digital forensic evidence collection and processing Framework, Fundamentals of end point forensics for 
+Microsoft windows - Kernel and device driver architecture, Registry, Auditing and security architecture. File 
+system handling - Reconstruction of files and directory structures on the FAT and NTFS.  
+
+UNIT-II 
+DIGITAL FORENSICS: 15 Hours 
+Fundamentals of host forensics for Unix derivatives - Linux operating system, Kernel and device drives 
+architecture, Security and audit mechanisms, File system and pseudo file systems, Reconstruction of file and 
+directory structures using UFS and EXT2/3/4 file systems as exemplars.  
+Forensic analysis of database systems, Database tampering, Forensic analysis of database components, 
+Table storage, Transaction logs, indexes, Forensic recovery for table storage. 
+
+UNIT-III 
+NETWORK FORENSICS AND CYBER LAWS: 10 Hours 
+Network device forensics, investigating logs, Network traffic and web attacks, Mobile device, Social media 
+and wireless forensics, Steganography and image file forensics, Email investigation. 
+Cyber laws in India, Case studies and tools. 
+
+Suggested List of Experiments 
+1. Collect Forensic data from Windows machine and create report. 
+
+ Page | 138  
+
+
+
+                                                                      Curriculum for B. Tech. Computer Science and Engineering (Cyber 
+Scecurity) 
+
+E Boo ks / MOOCs/ NPTEL 
+1. https://www.coursera.org/specializations/full-stack-react 
+2. https://developer.mozilla.org/en-US/ 
+3. https://react.dev/ 
+4. https://react.dev/ 
+
+ 
+ 
+
+FIREWALL AND UTM ARCHITECTURE 
+Course Code:  CB2102-1 Course Type PCC 
+Teaching Hours/Week (L: T: P): 3:0:0 Credits 03 
+Total Teaching Hours 40+0+0 CIE + SEE Marks 50+50 
+Prerequisite CS1002-1 
+
+ 
+
+Teaching Department: Computer Science & Engineering (Cyber Security) 
+Course Objectives: 
+1. To understand the architecture of Firewalls. 
+2. To understand the architecture of UTM (Unified threat management). 
+3. To study how to plan Firewall deployments. 
+4. To configure firewall rules. 
+5. To understand and apply the security rules on UTM devices along with IPS and URL Filtering 
+
+configurations. 
+ 
+
+UNIT-I 
+Introduction: 15 Hours 
+Computer and Network Security Concepts and Principles History of Firewalls. 
+
+UNIT-II 
+UTM Foundations: 15 Hours 
+Stateful and Stateless firewalls. Unified Threat Management (UTM) Foundations. 
+
+UNIT-III 
+UTM Concepts: 10 Hours 
+
+The History of the Unified Threat Management (UTM) Concepts UTM vs other Security Architectures. UTM 
+vs Next-Generation Firewalls, Best practices while deploying Firewalls in corporate environment. 
+Course Outcomes: At the end of the course student will be able to: 
+1. Understand the core components of Next Generation Firewall. 
+
+2. Understand the difference between stateful and stateless firewalls. 
+
+3. Deploy basic firewall along with IPS and URL Filtering feature. 
+
+4. Demonstrate the capabilities of UTM over Basic Firewall. 
+
+5. Able to perform basic Firewall troubleshooting. 
+ 
+
+ 
+Course Outcomes Mapping with Program Outcomes & PSO 
+
+Program Outcomes→ 1 2 3 4 5 6 7 8 9 10 11 12 PSO↓ 
+↓ Course Outcomes 1 2 3 
+
+CS2102-1.1 3 3           2 3  
+CS2102-1.2  2 2          2 2  
+CS2102-1.3 2 3           3 3  
+CS2102-1.4 2 2 2          2 3  
+CS2102-1.5 2 3           2 3  
+
+1: Low 2: Medium 3: High 
+ 
+TEXTBOOKS: 
+
+1. Official Check Point Administration book (CCSA) - by Check Point Software Technologies. 
+2. Learn Wireshark: Confidently navigate the Wireshark interface and solve real-world networking 
+
+problems - by Lisa Bock. 
+REFERENCE BOOKS: 
+
+1. Fortigate Firewall Security Pocket Guide (Fortigate Pocket Guide Book 1 ) – by Ofer shmueli 
+
+ Page | 156  
+
+
+
+                                                                      Curriculum for B. Tech. Computer Science and Engineering (Cyber 
+Scecurity) 
+
+2. Fortigate Firewall Security Pocket Guide (Fortigate Pocket Guide Book 2) - by Ofer shmueli 
+E Books / MOOCs/ NPTEL 
+
+1. https://community.sophos.com/utm-firewall/f/recommended-reads/115519/sophos-utm-
+architecture 
+
+2. https://www.networkworld.com/article/2288390/a-closer-look-at-utm-hardware-
+architecture.html 
+
+ 
+ 
+ 
+
+ETHICAL HACKING AND NETWORK DEFENSE 
+
+Course Code  CB1602-1 Course Type PCC 
+
+Teaching Hours/Week (L: T: P) 1:0:2 Credits 02 
+
+Total Teaching Hours 15+0+26 CIE + SEE Marks 50+50 
+ 
+
+Teaching Department: Computer Science & Engineering (Cyber Security) 
+
+Course Objectives: 
+1. To understand the core concepts of Ethical Hacking. 
+2. To understand how security vulnerabilities are exploited. 
+3. To analyze the impact of security vulnerabilities in systems. 
+4. To understand popular Network Defense solutions deployed at large organizations. 
+5. To configure basic firewall and IDS solution. 
+
+ 
+
+List of Experiments 
+ 15 Hours 
+
+Fundamentals of Ethical hacking, how organizations gain from Ethical Hacking, Typical Life Cycle of Ethical 
+Hacking, Types of Ethical Hacking- Red, Blue and Purple Teaming, Fundamentals of Vulnerability Analysis 
+and Penetration Testing, Threat Modeling and Attack Surface Identification, Life Cycle of Penetration Testing, 
+Using Kali Linux, and other tools for a penetration testing Assignment. Lab – Perform Vulnerability and 
+Penetration testing on given Vulnerable system and generate report. 
+Networking Primer-understanding Security aspect of OSI Model, Active and passive Network Attacks, Network 
+Layer and Cryptography, Single Sign On (SSO), Email encryption: PGP, STARTTLS; IPSec, SSL3.0, TLS 
+1.2, Attacks on SSL/TLS: Drown attack, Poodle attack, and Secure HTTP, DNSSEC. ARP Cache poisoning, 
+MAC flooding, Port Stealing, DHCP attacks, DNS based attacks, VLAN hopping, Man in the middle attacks. 
+Web Application Security: Security threats, XSS, CSRF, SQL Injection attacks, RFI, DoS/DDoS. 
+Techniques for Network Intrusion Detection System: Snort, Signature-based and Anomaly-based detection; 
+Firewalls: packet filters and stateful firewalls, application-aware firewalls, Proxies, NAT, VPN, Honeypots and 
+Honeynets. 
+Lab – Deploy Snort IDS and create custom signatures to capture malicious traffic. 
+ 
+Course Outcomes: At the end of the course student will be able to 
+
+1. To understand how to find security vulnerabilities in given system. 
+2. To suggest the remediation steps for identified security bugs. 
+3. To perform VAPT task on given system and submit professional report. 
+4. To deploy IDS system. 
+5. To develop custom IDS signatures. 
+
+ 
+
+  
+Course Outcomes Mapping with Program Outcomes & PSO 
+
+Program Outcomes→ 1 2 3 4 5 6 7 8 9 10 11 12 PSO↓ 
+↓ Course Outcomes 1 2 3 
+
+CS1602-1.1 3 2           1 1 2 
+CS1602-1.2 3 2 2          1 1 2 
+CS1602-1.3 3 2 2          1 2 3 
+CS1602-1.4 3 2 3          1 2 3 
+CS1602-1.5 3 2 3          1 2 3 
+
+1: Low 2: Medium 3: High 
+
+ Page | 157  
+
+
+
+                                                                      Curriculum for B. Tech. Computer Science and Engineering (Cyber 
+Scecurity) 
+
+ 
+TEXT BOOKS: 
+
+1. The Web Application Hacker's Handbook: Discovering and Exploiting Security Flaws Book by 
+Dafydd Stuttard and Marcus Pinto. 
+
+2. Hacking: The Art of Exploitation Book by Jon Erickson. 
+3. Hacking Exposed 7: Network Security Secrets and Solutions by Stuart McClure, Joel Scambray, 
+
+George Kurtz. 
+4. Snort Intrusion Detection and Prevention Toolkit by by Brian Caswell, Jay Beale, Andrew Baker. 
+
+REFERENCE Books: 
+1. Advanced Penetration Testing: Hacking the World's Most Secure Networks by Wil Allsopp 
+2. Snort 2.1 Intrusion Detection, Second Edition by Brian Caswell, Jay Beale (2004), Publisher(s): 
+
+Syngress 
+E Resources 
+
+1. https://www.coursera.org/learn/ethical-hacking-essentials-ehe 
+2. https://www.udemy.com/topic/ethical-hacking/ 
+3. https://onlinecourses.nptel.ac.in/noc22_cs13/preview 
+
+ 
+ 
+ 
+
+SECURED MOBILE APPLICATION DEVELOPMENT 
+
+Course Code:  CB3604-1 Course Type: PCC 
+Teaching Hours/Week (L: T: P):  0:0:2 Credits: 01 
+Total Teaching Hours: 0+0+26 CIE + SEE Marks: 50+50 
+
+ 
+
+Teaching Department: Computer Science & Engineering (Cyber Security) 
+
+Course Objectives: 
+1. Describe the architecture and overview of Android. 
+2. Develop a mobile application on android platform using UI components and Android Components. 
+3. Demonstrate data handling in Android and Develop a mobile application on Android platform 
+
+using SQLite 
+4. Build an Android web service. 
+5. Develop application to demonstrate google map and navigation. 
+
+ 
+
+List of Experiments 
+PART-A 
+
+1. Design four checkboxes namely any four food items and one button. Find total amount of food items 
+selected in Toast message after clicking the button. 
+
+2. Design simple calculator application that performs basic arithmetic operations. Use ADD, SUB, MUL, 
+DIV buttons to perform operations, CLEAR button to reset the fields, and edit text widgets for reading 
+operands, displaying result value. 
+
+3. Create an application which generates a random color on each click. 
+4. Implement the options menu concept in the application to choose between two activities (Give 
+
+appropriate titles to activities). 
+5. Implement context menu concept in application to change the background color. 
+6. Design an application to send SMS using Intent class. 
+7. Design a phone call application that takes a phone number from the user. 
+8. Write an application to toast your joining date and course selected for engineering using a Date picker 
+
+and List view/Spinner. 
+9. Write an application to make a dialogue box to confirm the change of background color or image. 
+10. Design an application that captures the image using a camera and set the captured image as the 
+
+background for your application. 
+PART-B 
+
+1. Implement a service concept to play the music in the background for long duration and perform a 
+foreground job. 
+
+2. Implement an AsyncTask to count from 1 to 1000 in the background and the display the progress using 
+
+ Page | 158  
+
+
+
+                                                                      Curriculum for B. Tech. Computer Science and Engineering (Cyber 
+Scecurity) 
+
+ 2. Chris Bates,”Web Programming Building Internet Applications”, Third Edition, Wiley India, 2006 
+
+E Books / MOOCs/ NPTEL 
+1. https://www.cs.uct.ac.za/mit_notes/web_programming.html 
+
+2. http://www.multitech.ac.ug/uploads/IntroductiontoWebProgramming.pdf 
+
+3. https://www.w3schools.com/php/ 
+
+4. https://www.w3schools.com/bootstrap/ 
+
+5. https://www.w3schools.com/nodejs/ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+OBJECT ORIENTED MODELLING AND DESIGN 
+Course Code:  CS3312-1 Course Type PEC 
+
+Teaching Hours/Week (L: T: P): 3:0:0 Credits 03 
+
+Total Teaching Hours 40+0+0 CIE + SEE Marks 50+50 
+ 
+
+Teaching Department: Computer Science & Engineering (Cyber Security) 
+
+Course Objectives: 
+1. Recall the object-oriented concepts, three pillars of object-orientation and their 
+
+benefits. 
+2. Illustrate the various models that can be used to demonstrate the objectoriented 
+
+design of any real world software systems. 
+3. Make use of use-cases for interpreting the requirements and develop class 
+
+diagrams that model both the domain state model and design model of a 
+software system. 
+
+4. Examine the dynamic aspects of a software system, model the interactiondiagrams 
+to justify those aspects. 
+
+5. Relate how the UML constructs are used to represent various models. 
+ 
+
+UNIT-I 
+
+Introduction: 15 Hours 
+What is Object Orientation? What is OO development? OO themes; Evidence for usefulness of OO 
+development; OO modeling history.  
+
+Modeling as Design Technique:  
+Modeling; abstraction; The three models. Class Modeling: Object and class concepts; Link and associations 
+concepts; Generalization and inheritance; A sample class model; Navigation of class models; Practical tips. 
+
+Advanced Class Modeling:  
+
+Advanced object and class concepts; Association ends; N-aryassociations; 
+(Text Book-1: Chapter 1 to 4.3) 
+
+Advanced Class Modeling:  
+Aggregation; Abstract classes; Multiple inheritance; Metadata; Reification; Constraints; Derived data; 
+Packages; Practical tips. 
+
+State Modeling:  
+
+ Page | 190  
+
+
+
+                                                                      Curriculum for B. Tech. Computer Science and Engineering (Cyber 
+Scecurity) 
+
+Events, States, Transitions and Conditions; State diagrams; State diagram behavior 
+  
+
+UNIT-II 
+
+Advanced State Modeling: 15 Hours 
+
+Advanced State Modeling: Nested state, diagrams; Nested states; Signal generalization; Concurrency; A sample 
+state model; Relation of class and state models 
+
+Interaction Modeling:  
+
+Use case models; Sequence models; Activity models; Use case relationships; Procedural sequence 
+models; Special constructs for activity models 
+(Text Book-1: Chapter 4.4,5,6 ,7) 
+
+Process Overview, System Conception:  
+
+Development stages; Development life cycle, Devising a system concept; Elaborating a concept; Preparing a 
+problem statement. 
+
+Domain Analysis:  
+
+Overview of analysis; Domain class model; Domain state model; Domain interaction model; Iterating the 
+analysis. 
+
+Application Analysis:  
+
+Application Analysis:Application interaction model; Application class model; Application state 
+model; Adding operations. 
+(Text Book-1: Chapter 10,11,12, 13) 
+  
+
+UNIT-III 
+
+System Design: 10 Hours 
+
+Overview; Estimating performance; Making a reuse plan; Breaking a system in to sub- systems; 
+Identifying concurrency; Allocation of sub-systems; Management of data storage; Handling global 
+resources; Choosing a software control strategy; Handling boundary conditions; Setting the trade-off 
+priorities; Common architectural styles; Architecture of the ATM system as the example. 
+
+Class Design:  
+
+Overview of class design; Bridging the gap; Realizing use cases; Designing algorithms; Re-cursing 
+downwards, Re-factoring; Design optimization; Reification of behavior; Adjustment of inheritance; 
+Organizing a class design; ATM example 
+(Text Book-1: Chapter 14 and 15 ) 
+ 
+Course Outcomes: At the end of the course student will be able to 
+
+1. Acquire Knowledge about different software systems modelling techniques,class design and 
+associations by making use of concept diagrams. 
+
+2. Illustrate Advanced Class, State and Interaction models of softwaresystemsutlilizingclass, state and 
+interaction diagrams. 
+
+3. Outline the system concepts, Development Life Cycle, AnalyseandDefineProblem Statement, 
+Analysethe system domain, application, class, stateand interaction models. 
+
+4. Overview of system design, estimate performance, divide it intosubsystems, managing resources, 
+selecting appropriate architectural styles. 
+
+5. Describe class design, Implementation modelling, Legacy systems andReverse engineering 
+concepts, realizing use cases, associations, FineTuningClasses, Constructing Interaction and State 
+models. 
+
+ 
+
+  
+Course Outcomes Mapping with Program Outcomes & PSO 
+
+Program Outcomes→ 1 2 3 4 5 6 7 8 9 10 11 12 PSO↓ 
+↓ Course Outcomes 1 2 3 
+
+ Page | 191  
+
+
+
+                                                                      Curriculum for B. Tech. Computer Science and Engineering (Cyber 
+Scecurity) 
+
+CS3312-1.1 2 3   1       1 2   
+CS3312-1.2 2 2 3  1       1 2   
+CS3312-1.3 2 3   1       1 2   
+CS3312-1.4 2 2 3  1       1 1   
+CS3312-1.5 1 3   1       1 1   
+
+1: Low 2: Medium 3: High 
+ 
+TEXTBOOKS: 
+1. Object-Oriented Modeling and Design with UML, Michael Blaha, JamesRumbaugh, 2nd Edition, 
+
+Pearson Education, 2005 
+REFERENCE BOOKS: 
+1. Object-Oriented Analysis and Design with Applications, Grady Booch et al, 3rdEdition, Pearson 
+
+Education, 2007. 
+2. Practical Object-Oriented Design with UML, Mark Priestley, 2nd Edition, TataMcGraw-Hill, 2003. 
+3. Object-Oriented Design with UML and JAVA, K. Barclay, J. Savage, Elsevier,2008. 
+4. The Unified Modeling Language User Guide,Booch, G., Rumbaugh, J., andJacobson I, 2nd Edition, 
+
+Pearson, 2005. 
+5. Object-Oriented Systems Analysis and Design Using UML, Simon Bennett,SteveMcRobb and Ray 
+
+Farmer, 2nd Edition, Tata McGraw-Hill, 2002. 
+E Books / MOOCs/ NPTEL 
+1. Object-Oriented Analysis and Design with Applications, Grady Booch, RobertA. Maksimchuk, 
+
+Michael W. Engel, Bobbi J. Young, Jim Conallen, Kelli A.Houston, Third Edition The Addison-
+Wesley Object Technology Series, 2007. 
+
+2. Object-Oriented Modeling and Design with UML, James R Rumbaugh, MichaelR. Blaha Pearson 
+Education, 21-Nov-2011 
+
+3. Object-Oriented Analysis and Design, Ramnath, Sarnath, Dathan, Brahma,ISBN 978-1-84996-522-4, 
+Springer Publications, 2011. 
+
+4. Object-Oriented Design, https://www.coursera.org/learn/object-oriented-designObject-Oriented 
+Analysis and Design 
+,https://nptel.ac.in/courses/106/105/106105153/# 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+SOFTWARE ARCHITECTURE AND DESIGN PATTERNS 
+
+Course Code:  CS3313-1 Course Type PEC 
+Teaching Hours/Week (L: T: P): 3:0:0 Credits 03 
+
+ Page | 192  
+
+
+
+                                                                      Curriculum for B. Tech. Computer Science and Engineering (Cyber 
+Scecurity) 
+
+ 
+
+LIFE SKILLS FOR ENGINEERS 
+ 
+
+Course Code:  HU1008-1 Course Type: AEC 
+Teaching Hours/Week (L: T: P):  1:0:0 Credits: 01 
+Total Teaching Hours: 15+0+0 CIE + SEE Marks: 50+50 
+
+ 
+
+Teaching Department: Respective Department 
+Course Objectives: 
+ 
+
+1. Understand Time Management, Managing Information Overload, Coping with Peer pressure and Stress Management 
+2. Familiarize the Science behind Personal Health Management and Addictions. 
+3.  Appreciate the importance of cultivating good hobbies, need for forming good habits and discarding bad habits and 
+
+holding difficult conversations during crises 
+4. Comprehend the importance of Creative Thinking, Continuous and Lifelong Learning, Collaboration and Team Work. 
+5. Equip them to excel in real work environment proactively 
+
+ 
+
+UNIT-I 
+Introduction to Life Skills 3 Hours 
+Meaning and Importance of Life Skills, Competitive Job market, Fast paced changes in Technology, Proliferation of 
+Electronic Gadgets and harmful online content. 
+Time Management 
+Introduction to Time Management, Impulsive Behaviour vis-a-vis goal Directive Behaviour, Time log, Information Overload 
+and coping with Information & Communication Technology (ICT) Revolution; Proliferation of Electronic Media; Exponential 
+growth in online content; Impact of Information Overload on human brain 
+Science behind Personal Health Management 3 Hours 
+Ignorance in Society on health issues, World Health Organization (WHO) - Definition of Health, Human Evolution, 
+Importance of physical work for human body & mind, Dangers of sedentary lifestyle, Germ diseases versus Lifestyle diseases, 
+Integrating physical exercise into daily life 
+Science behind Addictions 
+Addiction - Meaning, Neurology and Hormonal basics of Addictive Behaviour, How addictions are formed; Harmful effects 
+of addictions on Physical and Mental Health, Recognizing addictions in oneself, Coming out of addictions 
+
+UNIT-II 
+Need for cultivating good hobbies 3 Hours 
+Need for Hobbies in maintaining Work-Life Balance; how hobbies help in maintaining good physical and mental health, 
+Various Hobbies 
+Habits 
+Difference between hobbies & habits, Cultivating good habits & discarding bad habits: Role of habits for a successful life, 
+How habits form; Analyzing one’s own habits; Recognizing useless & harmful habits, Cultivating & Sustaining useful habits 
+Peer pressure and How to cope with it 3 Hours 
+Human being as a Social Animal, Physical Pain & Social Pain; Awareness of Harmful Social Pressure, Role of Prefrontal 
+Cortex in Judgement and Decision Making, why teenagers are vulnerable to peer pressure, strategies to overcome harmful 
+peer pressure. 
+Stress Management 
+Stress, Types of Stress, Fight & Flight Response of Humans; Harmful effects of chronic stress; Symptoms of Poor Coping 
+Skills of Stress, Stress & Psychiatric problems, Easy coping strategies for stress 
+
+UNIT-III 
+Continuous & Lifelong Learning 3 Hours 
+Accelerated change in Technology Landscape, Shorter Life Cycles of Technologies, Need for Continuous Learning of other 
+skills. 
+Team Working Skills & Collaboration 
+Team Work – Meaning, Skills and Relevance, Importance of Collaboration to succeed in one’s own career, How to be a good 
+team member 
+Course Outcomes: At the end of the course student will be able to 
+ 
+
+1. Apply the concept of Time Management, cope with Information Overload and withstand harmful peer pressure 
+2. Comprehend the need to stay away from addictions by realizing the biological basis behind these concepts  
+3. Develop good hobbies to maintain ideal work-life balance 
+4. Develop the aptitude for finding creative solutions to problems and realize the importance of continuous and lifelong 
+
+learning 
+
+ Page | 238  
+
+
+
+                                                                      Curriculum for B. Tech. Computer Science and Engineering (Cyber 
+Scecurity) 
+
+5. Demonstrate positive  and progressive abilities 
+ 
+
+Course Outcomes Mapping with Program Outcomes & PSO 
+ 
+
+Program Outcomes→ 1 2 3 4 5 6 7 8 9 10 11 12 PSO↓ 
+↓ Course Outcomes 1 2 
+
+HU1008-1.1 - - - - - - - - - 2 1 3 - - 
+HU1008-1.2 - - - - - - - - - 3 2 3 - - 
+HU1008-1.3 - - - - - - - - - 3 1 3 - - 
+HU1008-1.4 - - - - - - - - 2 2 1 2 - - 
+HU1008-1.5 - - - - - - - - 1 2 1 2 - - 
+
+1: Low 2: Medium 3: High 
+REFERENCES: 
+
+1. Lieberman, D.E., “The Story of the Human Body”, Pantheon Books, 2013. 
+2. Ratey, J.J., “Spark. Little Brown Spark”, 2013. 
+3. De Bono, E., “Creative Thinking”, Penguin UK, 2016. 
+4. Pachter, B., “The Power of Positive Confrontation”, Da Capo Lifelong Books, 1999. 
+5. Duhigg, C., “The Power of Habit”, Random House Trade Paperbacks, 2012. 
+6. Sharma, S., & Mishra, B., “Communication Skills for Engineers and Scientists”, PHI Learning, 2009. 
+7. Tracy, B., “Time Management”, AMACOM, 2014. 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Page | 239

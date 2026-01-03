@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
+  <rect width="800" height="300" fill="#f0f4c3" />
+  <text x="400" y="30" font-family="Arial" font-weight="bold" text-anchor="middle">Backpropagation in Neural Network</text>
+  
+  <g transform="translate(100, 100)">
+    <circle cx="0" cy="50" r="20" fill="#fff" stroke="#333"/>
+    <circle cx="0" cy="150" r="20" fill="#fff" stroke="#333"/>
+    <text x="0" y="200" text-anchor="middle">Input</text>
+
+    <circle cx="200" cy="50" r="20" fill="#fff" stroke="#333"/>
+    <circle cx="200" cy="150" r="20" fill="#fff" stroke="#333"/>
+    <text x="200" y="200" text-anchor="middle">Hidden</text>
+
+    <circle cx="400" cy="100" r="20" fill="#fff" stroke="#333"/>
+    <text x="400" y="200" text-anchor="middle">Output</text>
+  </g>
+
+  <!-- Forward Pass -->
+  <path d="M 120 150 L 280 150" stroke="green" stroke-width="3" marker-end="url(#arrowGreen)"/>
+  <text x="200" y="250" fill="green" font-weight="bold">Forward Pass (Compute Output)</text>
+
+  <!-- Backward Pass -->
+  <path d="M 480 80 C 350 20, 250 20, 120 80" stroke="red" stroke-width="3" stroke-dasharray="5,5" fill="none" marker-end="url(#arrowRed)"/>
+  <text x="300" y="60" fill="red" font-weight="bold">Backward Pass (Error Update)</text>
+
+  <defs>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="green" /></marker>
+    <marker id="arrowRed" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="red" /></marker>
+  </defs>
+</svg>
